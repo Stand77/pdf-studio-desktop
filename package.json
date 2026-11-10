@@ -1,0 +1,17 @@
+{
+  "name": "pdf-studio-build",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build wrapper for PDF Studio",
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.pdfstudio.app",
+    "productName": "PDF Studio",
+    "directories": { "app": "app", "output": "dist" },
+    "win": { "target": "portable", "signAndEditExecutable": false },
+    "portable": { "artifactName": "PDF-Studio.exe" }
+  }
+}
