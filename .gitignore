@@ -1,0 +1,4 @@
+node_modules/
+dist/
+app/lib/
+app.asar
